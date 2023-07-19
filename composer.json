@@ -1,5 +1,5 @@
 {
-    "name": "kayandra/hashidable",
+    "name": "alexander-fuchs/hashidable",
     "description": "Auto Hashids for Laravel Models and Routes",
     "type": "library",
     "license": "MIT",
@@ -7,15 +7,19 @@
         {
             "name": "Samuel Oloruntoba",
             "email": "tag@kayandra.co"
+        },
+        {
+            "name": "Alexander Fuchs",
+            "email": "af@altinum.tech"
         }
     ],
     "require": {
-        "php": ">=7.0",
-        "hashids/hashids": "^4.0"
+        "php": ">=8.0",
+        "hashids/hashids": "^5.0"
     },
     "require-dev": {
         "orchestra/testbench": "^5.3",
-        "phpunit/phpunit": "^9.2",
+        "phpunit/phpunit": "^10.0",
         "orchestra/database": "^5.1"
     },
     "autoload": {
