@@ -24,18 +24,18 @@
     },
     "autoload": {
         "psr-4": {
-            "Kayandra\\Hashidable\\": "src/"
+            "Altinum\\Hashidable\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Kayandra\\Hashidable\\Tests\\": "tests/"
+            "Altinum\\Hashidable\\Tests\\": "tests/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Kayandra\\Hashidable\\HashidableServiceProvider"
+                "Altinum\\Hashidable\\HashidableServiceProvider"
             ]
         }
     },

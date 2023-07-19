@@ -1,12 +1,12 @@
 <?php
 
-namespace Kayandra\Hashidable\Tests;
+namespace Altinum\Hashidable\Tests;
 
 use Illuminate\Support\Str;
-use Kayandra\Hashidable\Encoder;
+use Altinum\Hashidable\Encoder;
 use Illuminate\Support\Facades\Route;
-use Kayandra\Hashidable\Tests\Models\Model;
-use Kayandra\Hashidable\Tests\Models\ModelConfig;
+use Altinum\Hashidable\Tests\Models\Model;
+use Altinum\Hashidable\Tests\Models\ModelConfig;
 
 class HashidableTest extends TestCase
 {

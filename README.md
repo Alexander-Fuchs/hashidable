@@ -7,7 +7,7 @@
 _Note: This package is built to work with Laravel versions greater than 7. It may work in older version, but this has not been tested._
 
 ```
-composer require kayandra/hashidable
+composer require altinum/hashidable
 ```
 
 ## Setup
@@ -15,7 +15,7 @@ composer require kayandra/hashidable
 Import the `Hashidable` trait and add it to your model.
 
 ```php
-use Kayandra\Hashidable\Hashidable;
+use Altinum\Hashidable\Hashidable;
 
 Class User extends Model
 {
@@ -99,7 +99,7 @@ return [
 
 ### Per-Model Configuration
 
-You can also extend the global configuration on a per-model basis. To do this, your model should implement the `Kayandra\Hashidable\HashidableConfigInterface` and define the `hashidableConfig()` method on the model.
+You can also extend the global configuration on a per-model basis. To do this, your model should implement the `Altinum\Hashidable\HashidableConfigInterface` and define the `hashidableConfig()` method on the model.
 
 This method returns an array or subset of options similar to the global configuration.
 

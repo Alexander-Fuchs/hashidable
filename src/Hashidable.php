@@ -1,6 +1,6 @@
 <?php
 
-namespace Kayandra\Hashidable;
+namespace Altinum\Hashidable;
 
 trait Hashidable
 {
@@ -71,7 +71,7 @@ trait Hashidable
     /**
      * Hashid Encoder-decoder
      *
-     * @return \Kayandra\Hashidable\Encoder
+     * @return \Altinum\Hashidable\Encoder
      */
     final private function hashidableEncoder()
     {

@@ -1,10 +1,10 @@
 <?php
 
-namespace Kayandra\Hashidable\Tests\Models;
+namespace Altinum\Hashidable\Tests\Models;
 
-use Kayandra\Hashidable\Hashidable;
+use Altinum\Hashidable\Hashidable;
 use Illuminate\Database\Eloquent\Model as LaravelModel;
-use Kayandra\Hashidable\HashidableConfigInterface;
+use Altinum\Hashidable\HashidableConfigInterface;
 
 class ModelConfig extends LaravelModel implements HashidableConfigInterface
 {

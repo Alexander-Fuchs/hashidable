@@ -1,8 +1,8 @@
 <?php
 
-namespace Kayandra\Hashidable\Tests;
+namespace Altinum\Hashidable\Tests;
 
-use Kayandra\Hashidable\HashidableServiceProvider;
+use Altinum\Hashidable\HashidableServiceProvider;
 use Orchestra\Testbench\TestCase as Orchestra;
 use Orchestra\Database\ConsoleServiceProvider;
 

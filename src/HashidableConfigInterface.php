@@ -1,6 +1,6 @@
 <?php
 
-namespace Kayandra\Hashidable;
+namespace Altinum\Hashidable;
 
 interface HashidableConfigInterface
 {
