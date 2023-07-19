@@ -3,6 +3,7 @@
     "description": "Auto Hashids for Laravel Models and Routes",
     "type": "library",
     "license": "MIT",
+    "version": "1.0.0",
     "authors": [
         {
             "name": "Samuel Oloruntoba",
@@ -40,7 +41,7 @@
         }
     },
     "scripts": {
-        "test": "phpunit --color=always"
+        "test": "../hashidable-env/vendor/bin/phpunit --color=always"
     },
     "minimum-stability": "stable"
 }

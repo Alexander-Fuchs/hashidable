@@ -14,7 +14,7 @@ class HashidableServiceProvider extends ServiceProvider
     public function register()
     {
         $this->mergeConfigFrom(
-            dirname(__DIR__).'/config/hashidable.php', 'hashidable'
+            dirname(__DIR__) . '/config/hashidable.php', 'hashidable'
         );
     }
 
@@ -26,7 +26,7 @@ class HashidableServiceProvider extends ServiceProvider
     public function boot()
     {
         $this->publishes([
-            dirname(__DIR__).'/config/hashidable.php' => config_path('hashidable.php'),
+            dirname(__DIR__) . '/config/hashidable.php' => config_path('hashidable.php'),
         ], 'hashidable.config');
     }
 }
