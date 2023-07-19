@@ -4,7 +4,7 @@
 
 ## Installation
 
-_Note: This package is built to work with Laravel versions greater than 7. It may work in older version, but this has not been tested._
+_Note: This package is built to work with Laravel versions greater than 10. It may work in older version, but this has not been tested._
 
 ```
 composer require altinum/hashidable
