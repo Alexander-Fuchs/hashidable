@@ -18,9 +18,9 @@
         "hashids/hashids": "^5.0"
     },
     "require-dev": {
-        "orchestra/testbench": "^5.3",
+        "orchestra/testbench": "^8.5",
         "phpunit/phpunit": "^10.0",
-        "orchestra/database": "^5.1"
+        "orchestra/database": "^6.0"
     },
     "autoload": {
         "psr-4": {
